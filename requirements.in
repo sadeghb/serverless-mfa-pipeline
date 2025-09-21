@@ -1,0 +1,6 @@
+# requirements.in
+Flask
+requests
+textgrid
+PyYAML
+awsgi2

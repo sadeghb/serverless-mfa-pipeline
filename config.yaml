@@ -1,0 +1,15 @@
+# config.yaml
+
+# This file maps language codes from API requests to the specific MFA model
+# files that are pre-installed inside the Docker container.
+#
+# To support a new language, add a new entry here and update the Dockerfile
+# to download the corresponding acoustic and dictionary models.
+
+mfa_language_models:
+  "en-US": 
+    dictionary: "/opt/mfa_models/dictionary.dict"
+    acoustic_model: "/opt/mfa_models/acoustic.zip"
+
+# Defines the default language to use if the requested language is not found.
+default_mfa_language_key: "en-US"

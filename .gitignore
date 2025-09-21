@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+ENV/
+env/
+
+# IDE and editor specific
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Docker
+# *.tar
+# *.tar.gz
+
+# Build artifacts
+dist/
+build/
+*.egg-info/
+
+# Test files
+mfa_client.py
+event.json
+
+# Log files
+*.log
+
+# AWS SAM specific (if you were to use AWS SAM CLI for local testing/deployment)
+.aws-sam/
+
+# Other temporary or sensitive files
+.env
+*.tmp
+*.bak
